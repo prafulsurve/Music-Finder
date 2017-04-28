@@ -1,0 +1,33 @@
+.venn_chart {
+  width: 50%;
+  margin: 0 auto;
+}
+.venn, .sliders {
+  display: inline;
+}
+
+.rslider {
+  display: inline-block;
+}
+
+.rslider .rs-range-color  {
+    background-color: #33B5E5;
+}
+.rslider .rs-path-color  {
+    background-color: #C2E9F7;
+}
+.rslider .rs-handle  {
+    background-color: #C2E9F7;
+    padding: 7px;
+    border: 2px solid #C2E9F7;
+}
+.rslider .rs-handle.rs-focus  {
+    border-color: #33B5E5;
+}
+.rslider .rs-handle:after  {
+    border-color: #33B5E5;
+    background-color: #33B5E5;
+}
+.rslider .rs-border  {
+    border-color: transparent;
+}
