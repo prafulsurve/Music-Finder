@@ -2,12 +2,15 @@
   width: 50%;
   margin: 0 auto;
 }
+
 .venn, .sliders {
   display: inline;
 }
 
 .rslider {
   display: inline-block;
+  margin:0;
+  padding:0;
 }
 
 .rslider .rs-range-color  {
@@ -27,7 +30,4 @@
 .rslider .rs-handle:after  {
     border-color: #33B5E5;
     background-color: #33B5E5;
-}
-.rslider .rs-border  {
-    border-color: transparent;
 }
